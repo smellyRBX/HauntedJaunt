@@ -3115,6 +3115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 982352971}
   - component: {fileID: 982352970}
+  - component: {fileID: 982352972}
   m_Layer: 0
   m_Name: GameEnding
   m_TagString: Untagged
@@ -3150,6 +3151,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &982352972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982352969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f54f5051b67f8db46baf9086c5b9c148, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeDuration: 1
+  displayImageDuration: 1
+  player: {fileID: 5375512942815829704}
+  exitBackgroundImageCanvasGroup: {fileID: 1683146286}
 --- !u!1 &1545031192
 GameObject:
   m_ObjectHideFlags: 0
@@ -3496,5 +3513,10 @@ PrefabInstance:
 --- !u!4 &5375512942815658728 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5137033725796434059, guid: ee478c10357a9b744b8ebd41565ba7bc, type: 3}
+  m_PrefabInstance: {fileID: 996351592850948707}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5375512942815829704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5137033725796408491, guid: ee478c10357a9b744b8ebd41565ba7bc, type: 3}
   m_PrefabInstance: {fileID: 996351592850948707}
   m_PrefabAsset: {fileID: 0}
