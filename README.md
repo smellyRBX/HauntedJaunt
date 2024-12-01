@@ -12,4 +12,4 @@
 https://github.com/smellyRBX/HauntedJaunt
 
 ### Video
-youtube link here
+https://www.youtube.com/watch?v=OMPbRLerh0s
