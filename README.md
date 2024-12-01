@@ -1,7 +1,7 @@
 # Lemon John's Haunted Jaunt
 
 ### Team
-- Daniel Sanchez<br/>
+- Daniel Sanchez (Uploaded Build)<br/>
 - John Lawrence
 
 ### Modifications
