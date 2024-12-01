@@ -31,7 +31,8 @@ public class PlayerMovement : MonoBehaviour {
 		
 		// MINOR ADDITION SPEED BOOST : SHIFT TO SPRINT
 		m_Animator.speed = (isWalking && Input.GetKey(KeyCode.LeftShift)) ? 1.7f : 1f;
-
+		///////////////////////////////////////////////
+		
 		if (isWalking) {
 			if (!m_AudioSource.isPlaying) {
 				m_AudioSource.Play();

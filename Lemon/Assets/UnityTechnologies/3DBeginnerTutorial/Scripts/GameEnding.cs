@@ -21,12 +21,13 @@ namespace UnityTechnologies._3DBeginnerTutorial.Scripts {
 		float m_Timer;
 		bool m_HasAudioPlayed;
 
+		// TIMER ADDITION VARIABLES //
 		public TextMeshProUGUI timerText;
 		public Slider sliderValue;
-
 		private const float GameDuration = 90f;
 		private float _gameTimer = GameDuration;
-
+		//////////////////////////////
+		
 		private void Start() {
 			_gameTimer = GameDuration;
 		}
@@ -53,7 +54,6 @@ namespace UnityTechnologies._3DBeginnerTutorial.Scripts {
 			}
 			
 			// MAJOR ADDITION GAME TIMER : ESCAPE WITHING 1:30 OR LOSE
-			
 			_gameTimer -= Time.deltaTime;
 			_gameTimer = Mathf.Clamp(_gameTimer, 0f, GameDuration);
 			
@@ -66,7 +66,6 @@ namespace UnityTechnologies._3DBeginnerTutorial.Scripts {
 			if (_gameTimer <= 0f) {
 				CaughtPlayer();
 			}
-
 			//////////////////////////////////////////////////////////
 		}
 
