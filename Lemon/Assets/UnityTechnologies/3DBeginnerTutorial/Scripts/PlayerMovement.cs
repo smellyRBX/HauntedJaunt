@@ -28,6 +28,9 @@ public class PlayerMovement : MonoBehaviour {
 		bool hasVerticalInput = !Mathf.Approximately(vertical, 0f);
 		bool isWalking = hasHorizontalInput || hasVerticalInput;
 		m_Animator.SetBool("IsWalking", isWalking);
+		
+		// MINOR ADDITION SPEED BOOST : SHIFT TO SPRINT
+		m_Animator.speed = (isWalking && Input.GetKey(KeyCode.LeftShift)) ? 1.7f : 1f;
 
 		if (isWalking) {
 			if (!m_AudioSource.isPlaying) {
